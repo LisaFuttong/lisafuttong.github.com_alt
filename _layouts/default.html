@@ -16,7 +16,8 @@ Description: A two-column design with fluid background and fixed content width s
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>{{ page.title }}</title>
     <meta name="description" content=""/>
-    <link href="../default.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/default.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/pretty_photo.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -25,7 +26,7 @@ Description: A two-column design with fluid background and fixed content width s
     <div id="menu">
         <ul>
             <li class="active"><a href="#" title="">Taschen</a></li>
-            <li><a href="#" title="">Handymonster</a></li>
+            <li><a href="handymonster.html" title="">Handymonster</a></li>
             <li><a href="#" title="">Plüschis</a></li>
             <li><a href="#" title="">Sonstiges</a></li>
         </ul>
@@ -51,6 +52,15 @@ Description: A two-column design with fluid background and fixed content width s
 
     <p id="brand">Lisa Futtong</p>
 </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/jquery.pretty_photo.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: ''});
+    });
+</script>
 
 </body>
 </html>
