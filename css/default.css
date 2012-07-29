@@ -111,24 +111,28 @@ a:hover {
 	padding: 13px 0 0 0;
 }
 
-#header h1 {
+#header h2 {
 	float: left;
 	width: 104px;
 	height: 110px;
 	padding: 104px 100px 0 20px;
-	background: url(../images/img04.jpg) no-repeat;
+	background: url("../images/img04.jpg") no-repeat;
 	line-height: 32px;
 	font-size: 30px;
 	font-style: italic;
 	color: #715558;
 }
 
-#header h2 {
+.dont_show {
+        display: none;
+}
+
+#header h1 {
 	float: right;
 	width: 494px;
 	height: 34px;
 	padding: 180px 20px 0 0;
-	background: url(../images/img05.jpg) no-repeat;
+	background: url("../images/logo.jpg") no-repeat;
 	text-transform: lowercase;
 	text-align: right;
 	letter-spacing: -1px;
